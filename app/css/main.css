@@ -368,3 +368,5 @@ template {
  */
 [hidden] {
   display: none; }
+header {
+  height: 82px; }
