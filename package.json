@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "webpack -w",
+    "watch": "webpack-dev-server --inline --content-base app/ --open",
     "build": "npm run build-es5 && npm run build-es6"
   },
   "repository": {

@@ -3722,6 +3722,14 @@ var _DomQuery2 = _interopRequireDefault(_DomQuery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+bootstrap();
+
+function bootstrap() {
+  (0, _DomQuery2.default)('header .menu-btn').click(function () {
+    return (0, _DomQuery2.default)('.menu-operators').toggleClass('open');
+  });
+}
+
 /***/ }),
 /* 126 */
 /***/ (function(module, exports, __webpack_require__) {
